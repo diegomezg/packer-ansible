@@ -1,0 +1,6 @@
+- name: Install Apache
+  hosts: all
+  remote_user: azureuser
+  become: true
+  roles:
+    - apache
